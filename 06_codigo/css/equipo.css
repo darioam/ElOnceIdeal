@@ -1,0 +1,13 @@
+@import url(shared/subnav_style.css);
+@import url(shared/table_style.css);
+
+.table td:nth-child(n+2),
+.table th:nth-child(n+2) {
+    text-align: right;
+    width: 25%;
+}
+
+.table td:last-child,
+.table th:last-child {
+    padding-right: 15px;
+}

@@ -1,0 +1,87 @@
+@import url(hr.css);
+
+span {
+    background-color: #004aad;
+    color: white;
+    border-radius: 8px;
+    padding: 2px 8px;
+    font-variant-numeric: tabular-nums;
+    /*display: inline-block;*/
+    /*width: 2ch;*/
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2vw;
+}
+
+header{
+    grid-column: span 12;
+}
+
+main{
+    grid-column: span 8;
+}
+
+main>section{
+    display: grid;
+}
+
+#resultado{
+    grid-template-columns: auto 1fr auto;
+    border: 3px solid #004aad;
+    border-radius: 25px;
+    place-items: center;
+    margin-left: 1vw;
+}
+
+#resultado figure{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2vw;
+}
+
+#resultado img{
+    width: 70px;
+    aspect-ratio: 1;
+}
+
+#alineaciones {
+    grid-template-columns: 1fr 1fr;
+}
+
+#alineaciones h4{
+    text-align: center;
+    grid-column: span 2;
+}
+
+#alineaciones img{
+    width: 85%;
+    aspect-ratio: 2/3;
+}
+
+#alineaciones figure{
+    display: grid;
+    place-items: center;
+}
+
+aside{
+    grid-column: span 4;
+    border: 3px solid #004aad;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+aside h3 {
+    text-align: center;
+    background-color: #004aad;
+    color:white;
+    padding: 20px;
+    margin: 0;
+}
+
+aside ul{
+    list-style-type: none;
+}

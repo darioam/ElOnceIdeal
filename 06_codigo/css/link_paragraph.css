@@ -1,0 +1,9 @@
+.link-paragraph {
+    text-align: center;
+    margin-top: clamp(20px, 5vw, 30px); /*Mirar esto*/
+    cursor: pointer; /*añadido*/
+}
+
+.link-paragraph:active {
+    scale: 1.2; /*añadido*/
+}

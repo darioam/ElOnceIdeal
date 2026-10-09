@@ -1,0 +1,138 @@
+@import url(hr.css);
+
+hr {
+    width: 100%;
+}
+
+main,
+article,
+div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+article {
+    margin-top: 2vw;
+    width: 80%;
+}
+
+h4 {
+    margin-bottom: 0.5vw;
+
+}
+
+div>div>p {
+    margin: 0px;
+    text-align: center;
+}
+
+article>div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+div>figure {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+div>figure:last-child>figcaption {
+    margin-left: auto;
+}
+
+div>figure>img {
+    width: 5vw;
+    max-width: 90px;
+    aspect-ratio: 1;
+    margin-inline: 2vw;
+}
+
+#carrusel_fechas {
+    border: 3px solid #004aad;
+    border-radius: 25px;
+    margin: 2vw;
+    padding: 0.5vw;
+    padding-inline: 2vw;
+}
+
+#carrusel_fechas span {
+    background-color: #004aad;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    font-variant-numeric: tabular-nums;
+    height: 30px;
+    width: 30px;
+}
+
+
+#carrusel_fechas nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#carrusel_fechas>time {
+    display: block;
+    text-align: center;
+}
+
+
+#carrusel_fechas ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex: 1;
+    overflow: hidden; /* Ocultar elementos fuera de la vista */
+    background-color: #004aad; /*antes no*/
+}
+
+#carrusel_fechas ol li {
+    border: 2px solid #004aad;
+    overflow: hidden;
+    flex: 0 0 19%; /*width:20%*/
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+
+#carrusel_fechas ol li>time {
+    padding-inline: 1vw;
+    padding-block: 10px;
+    text-align: center;
+
+
+}
+
+#carrusel_fechas ol li>time:first-child {
+    /*background-color: #004aad;*/
+    color: white;
+    width: 100%;
+}
+
+#carrusel_fechas ol li>time:last-child {
+    line-height: 30px;
+    background-color: white;
+    width: 100%;
+}
+
+#carrusel_fechas i:hover {
+    text-shadow: #0073ad 0px 0px 5px;
+    opacity: 0.9;
+}
+
+#carrusel_fechas i:active {
+    scale: 1.2;
+}

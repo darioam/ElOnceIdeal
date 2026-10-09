@@ -1,0 +1,9 @@
+.table td{
+    color: #004aad;
+    border-bottom: 1px solid blue;
+}
+
+.table th{
+    background-color: #004aad;
+    color: white;
+}

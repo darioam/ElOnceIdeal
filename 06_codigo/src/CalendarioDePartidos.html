@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./../css/global.css">
+    <link rel="stylesheet" href="./../css/calendario.css">
+    <title> Página de Calendario de Partidos del proyecto de Desarrollo de Aplicaciones Web</title>
+</head>
+
+<body>
+    <!--Barra de Navegación-->
+    <header>
+        <nav>
+            <figure>
+                <a href="./../index.html" class="img-link"><img src="./../Imagenes/logoAzulLetras.jpg"></a>
+            </figure>
+            <ul>
+                <li> <a href="./Ligas/LaLiga/laLiga.html">Ligas</a> </li>
+                <li> <a href="./CalendarioDePartidos.html">Calendario de Partidos</a> </li>
+                <li> <a href="./Noticias.html">Noticias</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="carrusel_fechas">
+        <nav>
+
+            <i class="fa-solid fa-caret-left fa-5x" id="left-btn"></i>
+
+            <!-- Contenedor de las fechas -->
+            <ol class="date-list" role="list">
+                <li class="elemento-dia">
+                    <time datetime="2023-01-30">Lunes</time>
+                    <time datetime="2023-01-30">30</time>
+                </li>
+                <li class="elemento-dia">
+                    <time datetime="2023-01-30">Lunes</time>
+                    <time datetime="2023-01-30">30</time>
+                </li>
+                <li class="elemento-dia">
+                    <time datetime="2023-01-30">Lunes</time>
+                    <time datetime="2023-01-30">30</time>
+                </li>
+                <li class="elemento-dia">
+                    <time datetime="2023-01-31">Martes</time>
+                    <time datetime="2023-01-30">31</time>
+                </li>
+                <li >
+                    <time datetime="2023-02-01">Miercoles</time>
+                    <time datetime="2023-02-02"><span class="seleccionado">1</span></time>
+                    
+                </li>
+                <li class="elemento-dia">
+                    <time datetime="2023-02-01">Jueves</time>
+                    <time class="circular" datetime="2023-01-30">2</time>
+                </li>
+                <li class="elemento-dia">
+                    <time datetime="2023-02-03">Viernes</time>
+                    <time datetime="2023-01-30">3</time>
+                </li>
+                <li class="elemento-dia">
+                    <time datetime="2023-01-30">Lunes</time>
+                    <time datetime="2023-01-30">30</time>
+                </li>
+                <li class="elemento-dia">
+                    <time datetime="2023-01-30">Lunes</time>
+                    <time datetime="2023-01-30">30</time>
+                </li>
+            </ol>
+
+            <i class="fa-solid fa-caret-right fa-5x" id="right_btn"></i>
+        </nav>
+        <time datetime="2023-02-02">1 febrero</time>
+    </section>
+
+    <!--Listas de los partidos-->
+    <main>
+
+
+        <article>
+            <h4>LaLiga</h4>
+            <hr>
+            <div>
+                <figure>
+                    <img src="../Imagenes/proxy_image.jpg">
+                    <figcaption>FC Barcelona</figcaption>
+                </figure>
+
+
+                <div>
+                    <p>vs</p>
+                    <p>Finalizado</p>
+                </div>
+
+                <figure>
+                    <figcaption>Deportivo Alavés</figcaption>
+                    <img src="../Imagenes/proxy_image.jpg">
+                </figure>
+            </div>
+            <hr>
+            <div>
+                <figure>
+                    <img src="../Imagenes/proxy_image.jpg">
+                    <figcaption>FC Barcelona</figcaption>
+                </figure>
+
+                <div>
+                    <p>vs</p>
+                    <p>Finalizado</p>
+                </div>
+
+                <figure>
+                    <figcaption>Deportivo Alavés</figcaption>
+                    <img src="../Imagenes/proxy_image.jpg">
+                </figure>
+            </div>
+            <hr>
+
+        </article>
+
+        <article>
+            <h4>Premier League</h4>
+            <hr>
+            <div>
+                <figure>
+                    <img src="../Imagenes/proxy_image.jpg">
+                    <figcaption>FC Barcelona</figcaption>
+                </figure>
+
+                <div>
+                    <p>vs</p>
+                    <p>Finalizado</p>
+                </div>
+
+                <figure>
+                    <figcaption>Deportivo Alavés</figcaption>
+                    <img src="../Imagenes/proxy_image.jpg">
+                </figure>
+            </div>
+            <hr>
+        </article>
+
+        <article>
+            <h4>Bundesliga</h4>
+            <hr>
+            <div>
+                <figure>
+                    <img src="../Imagenes/proxy_image.jpg">
+                    <figcaption>FC Barcelona</figcaption>
+                </figure>
+
+                <div>
+                    <p>vs</p>
+                    <p>Finalizado</p>
+                </div>
+
+                <figure>
+                    <figcaption>Deportivo Alavés</figcaption>
+                    <img src="../Imagenes/proxy_image.jpg">
+                </figure>
+            </div>
+            <hr>
+        </article>
+
+        <article>
+            <h4>Serie A</h4>
+            <hr>
+            <div>
+                <figure>
+                    <img src="../Imagenes/proxy_image.jpg">
+                    <figcaption>FC Barcelona</figcaption>
+                </figure>
+
+                <div>
+                    <p>vs</p>
+                    <p>Finalizado</p>
+                </div>
+
+                <figure>
+                    <figcaption>Deportivo Alavés</figcaption>
+                    <img src="../Imagenes/proxy_image.jpg">
+                </figure>
+            </div>
+            <hr>
+        </article>
+
+        <article>
+            <h4>Ligue 1</h4>
+            <hr>
+            <div>
+                <figure>
+                    <img src="../Imagenes/proxy_image.jpg">
+                    <figcaption>FC Barcelona</figcaption>
+                </figure>
+
+                <div>
+                    <p>vs</p>
+                    <p>Finalizado</p>
+                </div>
+
+                <figure>
+                    <figcaption>Deportivo Alavés</figcaption>
+                    <img src="../Imagenes/proxy_image.jpg">
+                </figure>
+            </div>
+            <hr>
+        </article>
+
+    </main>
+
+    <script src="../js/calendario.js"></script>
+</body>
+
+</html>

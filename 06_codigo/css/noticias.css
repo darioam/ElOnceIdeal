@@ -1,0 +1,32 @@
+@import url(link_paragraph.css);
+
+section{
+    margin: 0px 1vw 2rem 1vw;
+}
+
+section div{
+    column-count: 4;
+    column-gap: 2.5vw;
+    
+}
+
+section figure:nth-child(n) {
+    padding-bottom: 40px;
+  }
+
+section figure {
+    display: inline-block;
+}
+
+section figure img{
+    width:100%;
+    aspect-ratio: 4/3;
+    margin-bottom: 5px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+figcaption {
+    word-wrap: break-word; /* Permite que las palabras largas se dividan */
+    overflow-wrap: break-word; /* Alternativa para navegadores modernos */
+    text-align: center; /* Centra el texto del figcaption */
+  }

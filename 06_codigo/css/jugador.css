@@ -1,0 +1,17 @@
+@import url(shared/subnav_style.css);
+@import url(shared/table_style.css);
+
+.table td{
+    color: #004aad;
+    border-top: 1px solid blue;
+}
+
+.table td:nth-child(2),
+.table th:nth-child(2) {
+    text-align: right;
+}
+
+.table td:last-child,
+.table th:last-child {
+    padding-right: 15px;
+}

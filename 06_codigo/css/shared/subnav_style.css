@@ -1,0 +1,53 @@
+/* Estilos de los enlaces */
+body>nav a {
+    text-decoration: none;
+    background-color: white;
+    color: #004aad;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+/* Efecto hover */
+body>nav a:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px lightblue;
+}
+
+.navbar-toggler {
+    border: 2px thin blue ; /* Quita el borde del botón */
+    background: transparent; /* Fondo transparente */
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.navbar-toggler i {
+    color:#004aad;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+    box-shadow: #0073ad 0px 0px 5px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: #0073ad 0px 0px 5px;
+}
+
+.navbar-toggler:hover i {
+    color: #0073ad; /* Cambia de color en hover */  
+    transform: rotate(90deg); /* Efecto de giro */
+}
+
+.navbar-toggler i:active {
+    color: #0073ad; /* Cambia de color en hover */
+    box-shadow: #0073ad 0px 0px 5px;
+    transform: rotate(90deg); /* Efecto de giro */
+}
+
+/*A ver el ancho*/
+@media (max-width:768px) {
+    body>nav a {
+        font-size: 15px;
+    }
+}
